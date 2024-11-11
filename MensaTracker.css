@@ -104,12 +104,16 @@ button:hover {
 .meals {
     padding-bottom: 50px;
     border-radius: 5px;
-    border-width: 3px;
+    background-color: #f8f9fa;
+    padding-right: 30px;
+
 }
 
 .date {
-    margin-bottom: 40px;
-    border-width: 3px;
+    margin-bottom: 20px;
     border-radius: 5px;
+    border-width: 1px;
+    background-color: #f8f9fa;
+    padding-right: 198px;
 }
 
