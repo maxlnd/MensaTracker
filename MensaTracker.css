@@ -1,0 +1,115 @@
+.nutrition {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.nutrition div {
+    flex: 1;
+    margin: 0 5px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.calories {
+    background-color: #007BFF;
+}
+
+.protein {
+    background-color: orange;
+}
+
+.carbohydrates {
+    background-color: red;
+}
+
+.fett {
+    background-color: deepskyblue;
+}
+
+.preis {
+    background-color: lightslategrey;
+}
+
+.veggie {
+    background-color: green;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-meal, .my-week {
+    width: 48%;
+}
+
+.add-meal h2, .my-week h2 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0;
+}
+
+button.remove {
+    background-color: lightslategrey;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.day {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meals {
+    padding-bottom: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.date {
+    margin-bottom: 40px;
+    border-width: 3px;
+    border-radius: 5px;
+}
+

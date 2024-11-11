@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensa Tracker</title>
+    <link rel="stylesheet" href="MensaTracker.css">
+</head>
+<body>
+<div class="container">
+    <h1>Mensa Tracker</h1>
+    <div class="nutrition">
+        <div class="calories">2090 kcal</div>
+        <div class="protein">55 g Protein</div>
+        <div class="carbohydrates">229 g Kohlenhydrate</div>
+        <div class="fett">103 g Fett</div>
+        <div class="preis">6,00 €</div>
+        <div class="veggie">50 % Veggie</div>
+    </div>
+    <div class="flex-container">
+        <div class="add-meal">
+            <h2>Essen hinzufügen</h2>
+            <select class="date" id="date-select">
+                <option>Dienstag, 09. Mai</option>
+                <option>Montag, 08. Mai</option>
+                <option>Sonntag, 07. Mai</option>
+            </select>
+            <select class="meals" id="meal-select" multiple>
+                <option>Pasta in Tomatensoße mit Speck, Peperoni...</option>
+                <option>Pasta in Tomaten - Broccolisoße mit Reibekäse...</option>
+                <option>Mini Frühlingsrollen mit Sweet Chili Soße...</option>
+                <option>Reispfanne mit Rindfleisch und Balkangemüse...</option>
+            </select>
+            <button>Hinzufügen</button>
+        </div>
+        <div class="my-week">
+            <h2>Meine Woche</h2>
+            <div class="day">
+                <h3>Montag, 08. Mai</h3>
+                <p>Pasta in Tomatensoße mit Speck, Peperoncini und Reibkäse</p>
+                <button class="remove">X</button>
+            </div>
+            <div class="day">
+                <h3>Dienstag, 09. Mai</h3>
+                <p>Mini Frühlingsrollen mit Sweet Chili Soße und Mienudeln</p>
+                <button class="remove">X</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
