@@ -1,10 +1,10 @@
-.nutrition {
+.ernährung {
     display: flex;
     margin-bottom: 20px;
     justify-content: space-between;
 }
 
-.nutrition div {
+.ernährung div {
     flex: 1;
     margin: 0 5px;
     padding: 15px;
@@ -14,7 +14,7 @@
     font-size: 16px;
 }
 
-.calories {
+.kalorien {
     background-color: #007BFF;
 }
 
@@ -22,7 +22,7 @@
     background-color: orange;
 }
 
-.carbohydrates {
+.kohlenhydrate {
     background-color: red;
 }
 
@@ -63,11 +63,11 @@ h1 {
     justify-content: space-between;
 }
 
-.add-meal, .my-week {
+.essen-hinzufügen, .meine-woche {
     width: 48%;
 }
 
-.add-meal h2, .my-week h2 {
+.essen-hinzufügen h2, .meine-woche h2 {
     margin-bottom: 10px;
     text-align: left;
 }
@@ -82,7 +82,6 @@ button {
     display: block;
     margin: 10px 0;
 }
-
 button.remove {
     background-color: lightslategrey;
 }
@@ -91,9 +90,9 @@ button:hover {
     opacity: 0.9;
 }
 
-.day {
+.tag {
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 5px;
     background: #f8f9fa;
     border-radius: 5px;
     display: flex;
@@ -101,12 +100,12 @@ button:hover {
     align-items: center;
 }
 
-.meals {
-    padding-bottom: 50px;
+.essen {
+    padding-bottom: 200px;
     border-radius: 5px;
     background-color: #f8f9fa;
-    padding-right: 30px;
-
+    padding-right: 20px;
+    font-size: 16px;
 }
 
 .date {
@@ -114,6 +113,13 @@ button:hover {
     border-radius: 5px;
     border-width: 1px;
     background-color: #f8f9fa;
-    padding-right: 198px;
+    padding-right: 200px;
+}
+.makros {
+    font-size: 12px;
+    color: darkgrey;
+}
+.marker {
+    list-style: none;
 }
 

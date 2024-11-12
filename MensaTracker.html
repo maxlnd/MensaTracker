@@ -9,23 +9,32 @@
 <body>
 <div class="container">
     <h1>Mensa Tracker</h1>
-    <div class="nutrition">
-        <div class="calories">2090 kcal</div>
+    <div class="ernährung">
+        <div class="kalorien">2090 kcal</div>
         <div class="protein">55 g Protein</div>
-        <div class="carbohydrates">229 g Kohlenhydrate</div>
+        <div class="kohlenhydrate">229 g Kohlenhydrate</div>
         <div class="fett">103 g Fett</div>
         <div class="preis">6,00 €</div>
         <div class="veggie">50 % Veggie</div>
     </div>
     <div class="flex-container">
-        <div class="add-meal">
+        <div class="essen-hinzufügen">
             <h2>Essen hinzufügen</h2>
-            <select class="date" id="date-select">
-                <option>Dienstag, 09. Mai</option>
-                <option>Montag, 08. Mai</option>
-                <option>Sonntag, 07. Mai</option>
+            <select class="date" id="datum-select">
+                <ul>
+                    <li>
+                        <option>Dienstag, 09. Mai</option>
+                    </li>
+                    <li>
+                        <option>Montag, 08. Mai</option>
+                    </li>
+                    <li>
+                        <option>Sonntag, 07. Mai</option>
+                    </li>
+                </ul>
+
             </select>
-            <select class="meals" id="meal-select" multiple>
+            <select class="essen" id="essen-select" multiple>
                 <option>Pasta in Tomatensoße mit Speck, Peperoni...</option>
                 <option>Pasta in Tomaten - Broccolisoße mit Reibekäse...</option>
                 <option>Mini Frühlingsrollen mit Sweet Chili Soße...</option>
@@ -33,16 +42,26 @@
             </select>
             <button>Hinzufügen</button>
         </div>
-        <div class="my-week">
+        <div class="meine-woche">
             <h2>Meine Woche</h2>
-            <div class="day">
-                <h3>Montag, 08. Mai</h3>
-                <p>Pasta in Tomatensoße mit Speck, Peperoncini und Reibkäse</p>
+            <div class="tag">
+                <ul class="marker">
+                    <li>
+                        <h3>Montag, 08. Mai</h3>
+                        <p>Pasta in Tomatensoße mit Speck, Peperoncini und Reibkäse</p>
+                        <p class="makros">Kalorien 920,Protein 31,Kohlenhydrate 81,Fett 20g</p>
+                    </li>
+                </ul>
                 <button class="remove">X</button>
             </div>
-            <div class="day">
-                <h3>Dienstag, 09. Mai</h3>
-                <p>Mini Frühlingsrollen mit Sweet Chili Soße und Mienudeln</p>
+            <div class="tag">
+                <ul class="marker">
+                    <li>
+                        <h3>Dienstag, 09. Mai</h3>
+                        <p>Mini Frühlingsrollen mit Sweet Chili Soße und Mienudeln</p>
+                        <p class="makros">Kalorien 1337,Protein 42.0,Kohlenhydrate 69,Fett 37</p>
+                    </li>
+                </ul>
                 <button class="remove">X</button>
             </div>
         </div>
