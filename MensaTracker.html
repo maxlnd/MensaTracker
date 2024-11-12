@@ -8,14 +8,25 @@
 </head>
 <body>
 <div class="container">
-    <h1>Mensa Tracker</h1>
+    <h1>Mensa <span style="color: #007BFF">Tracker</span></h1>
     <div class="ernährung">
-        <div class="kalorien">2090 kcal</div>
-        <div class="protein">55 g Protein</div>
-        <div class="kohlenhydrate">229 g Kohlenhydrate</div>
-        <div class="fett">103 g Fett</div>
-        <div class="preis">6,00 €</div>
-        <div class="veggie">50 % Veggie</div>
+        <div class="kalorien">2090
+            <p>kcal</p>
+        </div>
+        <div class="protein">55 g
+            <p>Protein</p></div>
+        <div class="kohlenhydrate">229 g
+            <p>Kohlenhydrate</p>
+        </div>
+        <div class="fett">103 g
+            <p>Fett</p>
+        </div>
+        <div class="preis">6,00 €
+            <p>Kosten</p>
+        </div>
+        <div class="veggie">50 %
+            <p>Veggie</p>
+        </div>
     </div>
     <div class="flex-container">
         <div class="essen-hinzufügen">
@@ -23,13 +34,13 @@
             <select class="date" id="datum-select">
                 <ul>
                     <li>
-                        <option>Dienstag, 09. Mai</option>
+                        <option><h1>Dienstag, 09. Mai</h1></option>
                     </li>
                     <li>
-                        <option>Montag, 08. Mai</option>
+                        <option><h1>Montag, 08. Mai</h1></option>
                     </li>
                     <li>
-                        <option>Sonntag, 07. Mai</option>
+                        <option><h1>Sonntag, 07. Mai</h1></option>
                     </li>
                 </ul>
 
@@ -40,7 +51,7 @@
                 <option>Mini Frühlingsrollen mit Sweet Chili Soße...</option>
                 <option>Reispfanne mit Rindfleisch und Balkangemüse...</option>
             </select>
-            <button>Hinzufügen</button>
+            <button class="hinzufügen">Hinzufügen</button>
         </div>
         <div class="meine-woche">
             <h2>Meine Woche</h2>
@@ -48,7 +59,8 @@
                 <ul class="marker">
                     <li>
                         <h3>Montag, 08. Mai</h3>
-                        <p>Pasta in Tomatensoße mit Speck, Peperoncini und Reibkäse</p>
+                        <a href="https://www.sw-ka.de/en/hochschulgastronomie/speiseplan/mensa_erzberger/"
+                           target="blank">Pasta in Tomatensoße mit Speck, Peperoncini und Reibkäse</a>
                         <p class="makros">Kalorien 920,Protein 31,Kohlenhydrate 81,Fett 20g</p>
                     </li>
                 </ul>
@@ -58,8 +70,19 @@
                 <ul class="marker">
                     <li>
                         <h3>Dienstag, 09. Mai</h3>
-                        <p>Mini Frühlingsrollen mit Sweet Chili Soße und Mienudeln</p>
+                        <a href="https://www.sw-ka.de/en/hochschulgastronomie/speiseplan/mensa_erzberger/"
+                           target="blank">Mini Frühlingsrollen mit Sweet Chili Soße und Mienudeln</a>
                         <p class="makros">Kalorien 1337,Protein 42.0,Kohlenhydrate 69,Fett 37</p>
+                    </li>
+                </ul>
+                <button class="remove">X</button>
+            </div>
+            <div class="tag">
+                <ul class="marker">
+                    <li>
+                        <h3>Dienstag, 10. Mai</h3>
+                        <a href="https://www.youtube.com/watch?v=22KlrpJSDzQ" target="blank">Oger Burger (aus Shrek)</a>
+                        <p class="makros">Kalorien 950,Protein 38,Kohlenhydrate 20,Fett 87</p>
                     </li>
                 </ul>
                 <button class="remove">X</button>
